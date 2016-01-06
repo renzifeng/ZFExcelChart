@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC4A3BBB1C3D442800468B82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4A3BBA1C3D442800468B82 /* main.m */; };
+		CC4A3BBE1C3D442800468B82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4A3BBD1C3D442800468B82 /* AppDelegate.m */; };
+		CC4A3BC11C3D442800468B82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4A3BC01C3D442800468B82 /* ViewController.m */; };
+		CC4A3BC41C3D442800468B82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4A3BC21C3D442800468B82 /* Main.storyboard */; };
+		CC4A3BC61C3D442800468B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC4A3BC51C3D442800468B82 /* Assets.xcassets */; };
+		CC4A3BC91C3D442800468B82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4A3BC71C3D442800468B82 /* LaunchScreen.storyboard */; };
+		CC4A3BD41C3D442800468B82 /* ZFExcelChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4A3BD31C3D442800468B82 /* ZFExcelChartTests.m */; };
+		CC4A3BDF1C3D442800468B82 /* ZFExcelChartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4A3BDE1C3D442800468B82 /* ZFExcelChartUITests.m */; };
+		CC4A3BEE1C3D443E00468B82 /* ZFDataTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4A3BED1C3D443E00468B82 /* ZFDataTableView.m */; };
+		CC4A3BF01C3D549F00468B82 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = CC4A3BEF1C3D549F00468B82 /* data.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC4A3BD01C3D442800468B82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC4A3BAE1C3D442800468B82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC4A3BB51C3D442800468B82;
+			remoteInfo = ZFExcelChart;
+		};
+		CC4A3BDB1C3D442800468B82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC4A3BAE1C3D442800468B82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC4A3BB51C3D442800468B82;
+			remoteInfo = ZFExcelChart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC4A3BB61C3D442800468B82 /* ZFExcelChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFExcelChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4A3BBA1C3D442800468B82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC4A3BBC1C3D442800468B82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC4A3BBD1C3D442800468B82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC4A3BBF1C3D442800468B82 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC4A3BC01C3D442800468B82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC4A3BC31C3D442800468B82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC4A3BC51C3D442800468B82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC4A3BC81C3D442800468B82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC4A3BCA1C3D442800468B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC4A3BCF1C3D442800468B82 /* ZFExcelChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFExcelChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4A3BD31C3D442800468B82 /* ZFExcelChartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFExcelChartTests.m; sourceTree = "<group>"; };
+		CC4A3BD51C3D442800468B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC4A3BDA1C3D442800468B82 /* ZFExcelChartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFExcelChartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4A3BDE1C3D442800468B82 /* ZFExcelChartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFExcelChartUITests.m; sourceTree = "<group>"; };
+		CC4A3BE01C3D442800468B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC4A3BEC1C3D443E00468B82 /* ZFDataTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFDataTableView.h; sourceTree = "<group>"; };
+		CC4A3BED1C3D443E00468B82 /* ZFDataTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFDataTableView.m; sourceTree = "<group>"; };
+		CC4A3BEF1C3D549F00468B82 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC4A3BB31C3D442800468B82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4A3BCC1C3D442800468B82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4A3BD71C3D442800468B82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC4A3BAD1C3D442800468B82 = {
+			isa = PBXGroup;
+			children = (
+				CC4A3BB81C3D442800468B82 /* ZFExcelChart */,
+				CC4A3BD21C3D442800468B82 /* ZFExcelChartTests */,
+				CC4A3BDD1C3D442800468B82 /* ZFExcelChartUITests */,
+				CC4A3BB71C3D442800468B82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC4A3BB71C3D442800468B82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC4A3BB61C3D442800468B82 /* ZFExcelChart.app */,
+				CC4A3BCF1C3D442800468B82 /* ZFExcelChartTests.xctest */,
+				CC4A3BDA1C3D442800468B82 /* ZFExcelChartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC4A3BB81C3D442800468B82 /* ZFExcelChart */ = {
+			isa = PBXGroup;
+			children = (
+				CC4A3BEC1C3D443E00468B82 /* ZFDataTableView.h */,
+				CC4A3BED1C3D443E00468B82 /* ZFDataTableView.m */,
+				CC4A3BBC1C3D442800468B82 /* AppDelegate.h */,
+				CC4A3BBD1C3D442800468B82 /* AppDelegate.m */,
+				CC4A3BBF1C3D442800468B82 /* ViewController.h */,
+				CC4A3BC01C3D442800468B82 /* ViewController.m */,
+				CC4A3BEF1C3D549F00468B82 /* data.json */,
+				CC4A3BC21C3D442800468B82 /* Main.storyboard */,
+				CC4A3BC51C3D442800468B82 /* Assets.xcassets */,
+				CC4A3BC71C3D442800468B82 /* LaunchScreen.storyboard */,
+				CC4A3BCA1C3D442800468B82 /* Info.plist */,
+				CC4A3BB91C3D442800468B82 /* Supporting Files */,
+			);
+			path = ZFExcelChart;
+			sourceTree = "<group>";
+		};
+		CC4A3BB91C3D442800468B82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC4A3BBA1C3D442800468B82 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC4A3BD21C3D442800468B82 /* ZFExcelChartTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC4A3BD31C3D442800468B82 /* ZFExcelChartTests.m */,
+				CC4A3BD51C3D442800468B82 /* Info.plist */,
+			);
+			path = ZFExcelChartTests;
+			sourceTree = "<group>";
+		};
+		CC4A3BDD1C3D442800468B82 /* ZFExcelChartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC4A3BDE1C3D442800468B82 /* ZFExcelChartUITests.m */,
+				CC4A3BE01C3D442800468B82 /* Info.plist */,
+			);
+			path = ZFExcelChartUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC4A3BB51C3D442800468B82 /* ZFExcelChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC4A3BE31C3D442800468B82 /* Build configuration list for PBXNativeTarget "ZFExcelChart" */;
+			buildPhases = (
+				CC4A3BB21C3D442800468B82 /* Sources */,
+				CC4A3BB31C3D442800468B82 /* Frameworks */,
+				CC4A3BB41C3D442800468B82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZFExcelChart;
+			productName = ZFExcelChart;
+			productReference = CC4A3BB61C3D442800468B82 /* ZFExcelChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC4A3BCE1C3D442800468B82 /* ZFExcelChartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC4A3BE61C3D442800468B82 /* Build configuration list for PBXNativeTarget "ZFExcelChartTests" */;
+			buildPhases = (
+				CC4A3BCB1C3D442800468B82 /* Sources */,
+				CC4A3BCC1C3D442800468B82 /* Frameworks */,
+				CC4A3BCD1C3D442800468B82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC4A3BD11C3D442800468B82 /* PBXTargetDependency */,
+			);
+			name = ZFExcelChartTests;
+			productName = ZFExcelChartTests;
+			productReference = CC4A3BCF1C3D442800468B82 /* ZFExcelChartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC4A3BD91C3D442800468B82 /* ZFExcelChartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC4A3BE91C3D442800468B82 /* Build configuration list for PBXNativeTarget "ZFExcelChartUITests" */;
+			buildPhases = (
+				CC4A3BD61C3D442800468B82 /* Sources */,
+				CC4A3BD71C3D442800468B82 /* Frameworks */,
+				CC4A3BD81C3D442800468B82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC4A3BDC1C3D442800468B82 /* PBXTargetDependency */,
+			);
+			name = ZFExcelChartUITests;
+			productName = ZFExcelChartUITests;
+			productReference = CC4A3BDA1C3D442800468B82 /* ZFExcelChartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC4A3BAE1C3D442800468B82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "任子丰";
+				TargetAttributes = {
+					CC4A3BB51C3D442800468B82 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					CC4A3BCE1C3D442800468B82 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CC4A3BB51C3D442800468B82;
+					};
+					CC4A3BD91C3D442800468B82 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CC4A3BB51C3D442800468B82;
+					};
+				};
+			};
+			buildConfigurationList = CC4A3BB11C3D442800468B82 /* Build configuration list for PBXProject "ZFExcelChart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC4A3BAD1C3D442800468B82;
+			productRefGroup = CC4A3BB71C3D442800468B82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC4A3BB51C3D442800468B82 /* ZFExcelChart */,
+				CC4A3BCE1C3D442800468B82 /* ZFExcelChartTests */,
+				CC4A3BD91C3D442800468B82 /* ZFExcelChartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC4A3BB41C3D442800468B82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4A3BC91C3D442800468B82 /* LaunchScreen.storyboard in Resources */,
+				CC4A3BC61C3D442800468B82 /* Assets.xcassets in Resources */,
+				CC4A3BC41C3D442800468B82 /* Main.storyboard in Resources */,
+				CC4A3BF01C3D549F00468B82 /* data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4A3BCD1C3D442800468B82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4A3BD81C3D442800468B82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC4A3BB21C3D442800468B82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4A3BC11C3D442800468B82 /* ViewController.m in Sources */,
+				CC4A3BBE1C3D442800468B82 /* AppDelegate.m in Sources */,
+				CC4A3BBB1C3D442800468B82 /* main.m in Sources */,
+				CC4A3BEE1C3D443E00468B82 /* ZFDataTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4A3BCB1C3D442800468B82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4A3BD41C3D442800468B82 /* ZFExcelChartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4A3BD61C3D442800468B82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4A3BDF1C3D442800468B82 /* ZFExcelChartUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC4A3BD11C3D442800468B82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC4A3BB51C3D442800468B82 /* ZFExcelChart */;
+			targetProxy = CC4A3BD01C3D442800468B82 /* PBXContainerItemProxy */;
+		};
+		CC4A3BDC1C3D442800468B82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC4A3BB51C3D442800468B82 /* ZFExcelChart */;
+			targetProxy = CC4A3BDB1C3D442800468B82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC4A3BC21C3D442800468B82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC4A3BC31C3D442800468B82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC4A3BC71C3D442800468B82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC4A3BC81C3D442800468B82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC4A3BE11C3D442800468B82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC4A3BE21C3D442800468B82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC4A3BE41C3D442800468B82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZFExcelChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zifeng.ZFExcelChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC4A3BE51C3D442800468B82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZFExcelChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zifeng.ZFExcelChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC4A3BE71C3D442800468B82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZFExcelChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zifeng.ZFExcelChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZFExcelChart.app/ZFExcelChart";
+			};
+			name = Debug;
+		};
+		CC4A3BE81C3D442800468B82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZFExcelChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zifeng.ZFExcelChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZFExcelChart.app/ZFExcelChart";
+			};
+			name = Release;
+		};
+		CC4A3BEA1C3D442800468B82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZFExcelChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zifeng.ZFExcelChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZFExcelChart;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CC4A3BEB1C3D442800468B82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZFExcelChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zifeng.ZFExcelChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZFExcelChart;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC4A3BB11C3D442800468B82 /* Build configuration list for PBXProject "ZFExcelChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4A3BE11C3D442800468B82 /* Debug */,
+				CC4A3BE21C3D442800468B82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC4A3BE31C3D442800468B82 /* Build configuration list for PBXNativeTarget "ZFExcelChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4A3BE41C3D442800468B82 /* Debug */,
+				CC4A3BE51C3D442800468B82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC4A3BE61C3D442800468B82 /* Build configuration list for PBXNativeTarget "ZFExcelChartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4A3BE71C3D442800468B82 /* Debug */,
+				CC4A3BE81C3D442800468B82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC4A3BE91C3D442800468B82 /* Build configuration list for PBXNativeTarget "ZFExcelChartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4A3BEA1C3D442800468B82 /* Debug */,
+				CC4A3BEB1C3D442800468B82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC4A3BAE1C3D442800468B82 /* Project object */;
+}

@@ -11,7 +11,7 @@
 
 #define ScreenWidth [UIScreen mainScreen].bounds.size.width
 #define ScreenHeight [UIScreen mainScreen].bounds.size.height
-#define ItemWidth ScreenWidth/9
+#define ItemWidth ScreenWidth/5
 #define ItemHeight 44
 #define ScrollHeight (ItemHeight*6)
 

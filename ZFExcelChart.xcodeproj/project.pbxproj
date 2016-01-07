@@ -106,12 +106,12 @@
 		CC4A3BB81C3D442800468B82 /* ZFExcelChart */ = {
 			isa = PBXGroup;
 			children = (
-				CC4A3BEC1C3D443E00468B82 /* ZFDataTableView.h */,
-				CC4A3BED1C3D443E00468B82 /* ZFDataTableView.m */,
 				CC4A3BBC1C3D442800468B82 /* AppDelegate.h */,
 				CC4A3BBD1C3D442800468B82 /* AppDelegate.m */,
 				CC4A3BBF1C3D442800468B82 /* ViewController.h */,
 				CC4A3BC01C3D442800468B82 /* ViewController.m */,
+				CC4A3BEC1C3D443E00468B82 /* ZFDataTableView.h */,
+				CC4A3BED1C3D443E00468B82 /* ZFDataTableView.m */,
 				CC4A3BEF1C3D549F00468B82 /* data.json */,
 				CC4A3BC21C3D442800468B82 /* Main.storyboard */,
 				CC4A3BC51C3D442800468B82 /* Assets.xcassets */,
@@ -506,6 +506,7 @@
 				CC4A3BE51C3D442800468B82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC4A3BE61C3D442800468B82 /* Build configuration list for PBXNativeTarget "ZFExcelChartTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +515,7 @@
 				CC4A3BE81C3D442800468B82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC4A3BE91C3D442800468B82 /* Build configuration list for PBXNativeTarget "ZFExcelChartUITests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +524,7 @@
 				CC4A3BEB1C3D442800468B82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

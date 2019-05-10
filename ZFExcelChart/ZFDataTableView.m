@@ -11,8 +11,7 @@
 
 @implementation ZFDataTableView
 
-- (id)initWithFrame:(CGRect)frame style:(UITableViewStyle)style
-{
+- (id)initWithFrame:(CGRect)frame style:(UITableViewStyle)style {
     self = [super initWithFrame:frame style:style];
     if (self) {
         
@@ -21,8 +20,7 @@
     return self;
 }
 
--(void)_initView
-{
+- (void)_initView {
     self.delegate = self;
     self.dataSource = self;
     self.showsVerticalScrollIndicator = NO;    //竖直
@@ -32,28 +30,24 @@
     self.rowHeight = ItemHeight;
 }
 
--(void)setTableViewContentOffSet:(CGPoint)contentOffSet
-{
+- (void)setTableViewContentOffSet:(CGPoint)contentOffSet {
     [self setContentOffset:contentOffSet];
 }
 
--(void)setTitleArr:(NSArray *)titleArr
-{
+- (void)setTitleArr:(NSArray *)titleArr {
     _titleArr = titleArr;
 }
 
 #pragma mark - UITableView delegate/dataSource
--(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-{
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return self.titleArr.count;
 }
 
--(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString *identify = @"cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identify];
-    if (cell == nil)
-    {
+    if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identify];
         cell.backgroundColor = [UIColor clearColor];
         
@@ -78,8 +72,7 @@
 }
 
 
--(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
-{
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
     UIView *headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width, ItemHeight)];
     headerView.backgroundColor = [UIColor grayColor];
  
@@ -96,16 +89,14 @@
     return headerView;
 }
 
--(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
-{
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
     return ItemHeight;
 }
 
 #pragma mark - UIScrollView delegate
--(void)scrollViewDidScroll:(UIScrollView *)scrollView
-{
-    if (_scroll_delegate && [_scroll_delegate respondsToSelector:@selector(dataTableViewContentOffSet:)])
-    {
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    if (_scroll_delegate && [_scroll_delegate respondsToSelector:@selector(dataTableViewContentOffSet:)]) {
         [_scroll_delegate dataTableViewContentOffSet:scrollView.contentOffset];
     }
 }

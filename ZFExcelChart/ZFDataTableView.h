@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-//设置同步滑动代理
+/// 设置同步滑动代理
 @protocol ZFScrollDelegate <NSObject>
 
--(void)dataTableViewContentOffSet:(CGPoint)contentOffSet;
+- (void)dataTableViewContentOffSet:(CGPoint)contentOffSet;
 
 @end
 
@@ -22,6 +22,6 @@
 
 @property (nonatomic, assign) id<ZFScrollDelegate> scroll_delegate;
 
--(void)setTableViewContentOffSet:(CGPoint)contentOffSet;
+- (void)setTableViewContentOffSet:(CGPoint)contentOffSet;
 
 @end
